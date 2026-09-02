@@ -18,10 +18,3 @@ title: Home
   </article>
 </section>
 
-<section class="single-post-area">
-  <div class="post-body">
-    <h2>About the Repository</h2>
-    <p>A curated repository of MS Emon's research and analytical deep-dives focused on the intersection of Systems Theory, Neuroscience, and E-commerce Scalability.</p>
-    <p><a class="btn-primary" href="{{ '/research/' | relative_url }}">Explore research</a></p>
-  </div>
-</section>
