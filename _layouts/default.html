@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5" name="viewport">
   <title>{{ page.title }} | {{ site.title }}</title>
+  {% seo %}
+  {% feed_meta %}
 
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect">
@@ -720,8 +722,8 @@
       <hr class="footer-divider">
       <div class="footer-links">
         <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/search/label/Research' | relative_url }}">Research</a>
-        <a href="{{ '/search/label/Analytics' | relative_url }}">Analytics</a>
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        <a href="{{ '/analytics/' | relative_url }}">Analytics</a>
         <a href="https://www.researchgate.net/profile/Md-Salauddin-Emon" rel="noopener noreferrer" target="_blank">ResearchGate</a>
       </div>
       <hr class="footer-divider">

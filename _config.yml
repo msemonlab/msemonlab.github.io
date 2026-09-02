@@ -1,4 +1,21 @@
-title: MS Emon's Research Repository
-description: Project logs, research blog, and academic writing framework.
-url: https://github.io
-theme: none
+title: MS Emon
+description: Strategy Analyst | Systems, Neuroscience & E-commerce | Data-Driven & Customer-Centric
+url: https://msemonlab.github.io
+baseurl: ""
+lang: en
+permalink: /:categories/:year/:month/:day/:title/
+markdown: kramdown
+timezone: Asia/Dhaka
+author:
+  name: MS Emon
+  url: https://www.researchgate.net/profile/Md-Salauddin-Emon
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
