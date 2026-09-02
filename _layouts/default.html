@@ -636,7 +636,22 @@
 
     body#layout { padding: 20px; background: #f0f4f8; font-family: 'Inter', sans-serif; }
   
-  </style>
+    /* Proposed Blogger parity pass: homepage status composition and spacing. */
+  .home-status { margin: 0; }
+  .home-status > .eyebrow { margin: 0 0 18px; color: var(--accent-teal); font: 700 10px/1 var(--font); letter-spacing: 2.8px; }
+  .home-status .status-card { padding: 30px; margin-bottom: 0; border-radius: 8px !important; border-top: 4px solid var(--light-blue) !important; background-image: linear-gradient(145deg, var(--status-bg), var(--status-detail-bg)) !important; }
+  .home-status .status-card h2 { margin: 0 0 22px; padding-bottom: 8px; border-bottom: 2px solid var(--accent-teal); font-size: 22px; }
+  .home-status .status-card h3 { margin: 0 0 12px; max-width: none; font-size: 28px; line-height: 1.15; letter-spacing: -0.6px; }
+  .home-status .status-card > p { margin-bottom: 20px; }
+  .home-status .focus-panel { padding: 15px; border: 1px solid var(--status-detail-border); border-radius: 5px; background: var(--status-detail-bg); background-image: repeating-linear-gradient(90deg, transparent 0 18px, var(--instrument-line) 19px, transparent 20px); }
+  .home-status .focus-panel span { display: block; margin-bottom: 5px; color: var(--text-muted); font-size: 12px; font-weight: 600; text-transform: uppercase; }
+  .home-status .focus-panel p { margin: 0; color: var(--status-text); font-size: 13px; }
+  .home-status .status-card .status-note { margin-top: 20px; }
+  @media screen and (max-width: 600px) {
+    .home-status .status-card { padding: 24px 20px; }
+    .home-status .status-card h3 { font-size: 23px; }
+  }
+</style>
 </head>
 <body>
   <div class="nav-overlay" id="nav-overlay"></div>
