@@ -336,6 +336,13 @@
   .post-body code { padding: 2px 6px; }
   .post-body pre code { padding: 0; background: transparent; }
 
+  .site-search-page { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius); padding: 24px; margin-bottom: 24px; }
+  .site-search-page label { display: block; color: var(--primary-blue); font-weight: 700; margin-bottom: 10px; }
+  .search-page-controls { display: flex; gap: 10px; }
+  .search-page-controls input { flex: 1; min-width: 0; padding: 10px 12px; border: 1px solid var(--border-color); border-radius: var(--radius); background: var(--bg-body); color: var(--text-main); font: inherit; }
+  .search-page-controls input:focus { outline: 2px solid var(--accent-teal); outline-offset: 1px; }
+  .search-status { color: var(--text-muted); padding: 20px 0; }
+
   /*=============================================================================
     8. Pagination
   =============================================================================*/
@@ -635,7 +642,7 @@
       <button aria-label="Close menu" class="drawer-close" id="drawer-close" type="button">&#10005;</button>
     </div>
     <div class="drawer-search">
-      <form action="{{ '/search' | relative_url }}" class="drawer-search-form" method="get">
+      <form action="{{ '/search/' | relative_url }}" class="drawer-search-form" method="get">
         <input class="drawer-search-input" name="q" placeholder="Search articles..." type="text">
         <button class="drawer-search-btn" type="submit">Search</button>
       </form>
@@ -666,7 +673,7 @@
         </nav>
 
         <div class="header-search">
-          <form action="{{ '/search' | relative_url }}" method="get">
+          <form action="{{ '/search/' | relative_url }}" method="get">
             <input name="q" placeholder="Search research &amp; articles..." type="text">
             <button class="btn-primary" type="submit">Search</button>
           </form>
