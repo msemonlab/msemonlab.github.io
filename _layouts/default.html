@@ -296,9 +296,10 @@
   /*=============================================================================
     5. Main Layout — Two-Column
   =============================================================================*/
-  .site-body { display: flex; gap: 36px; padding: 36px 24px; max-width: var(--container); margin: 0 auto; }
-  .main-content { flex: 1; min-width: 0; }
-  .sidebar-area { width: 300px; flex-shrink: 0; }
+  .site-body { display: flex; gap: 51px; padding: 36px 24px; max-width: var(--container); margin: 0 auto; }
+  .main-content { flex: 0 0 816px; min-width: 0; }
+  .sidebar-area { width: 270px; flex-shrink: 0; }
+  .home-content { padding: 0 15px; }
 
   /*=============================================================================
     6. Article Cards
@@ -372,7 +373,7 @@
   /*=============================================================================
     11. Footer
   =============================================================================*/
-  .site-footer { background-color: var(--primary-blue); color: rgba(255,255,255,0.85); padding: 40px 24px; text-align: center; margin-top: 20px; }
+  .site-footer { background-color: var(--primary-blue); color: rgba(255,255,255,0.85); padding: 38px 24px; text-align: center; margin-top: 20px; }
   .site-footer p { margin-bottom: 6px; font-size: 14px; }
   .site-footer a { color: var(--accent-teal); text-decoration: none; }
   .site-footer a:hover { color: #fff; text-decoration: underline; }
@@ -397,7 +398,8 @@
     12. Responsive
   =============================================================================*/
   @media screen and (max-width: 1024px) {
-    .site-body { flex-direction: column; padding: 24px 16px; }
+    .site-body { flex-direction: column; gap: 24px; padding: 24px 16px; }
+    .main-content { flex: 1 1 auto; width: 100%; }
     .sidebar-area { width: 100%; }
   }
 
@@ -418,7 +420,9 @@
     .article-card { padding: 20px; }
     .article-title { font-size: 17px; }
     .article-meta { flex-direction: column; align-items: flex-start; gap: 4px; }
+    .home-content { padding: 0; }
     .single-post-area { padding: 20px 18px; }
+    .search-page-controls { flex-direction: column; }
     .single-post-title { font-size: 22px; }
     .comments-section { padding: 20px 18px; }
     #blog-pager { justify-content: center; }
