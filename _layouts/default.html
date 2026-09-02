@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5" name="viewport">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>{% if page.title and page.title != 'Home' %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   {% seo %}
   {% feed_meta %}
 
@@ -653,7 +653,6 @@
       <div class="header-logo">
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         <span class="header-repository-label">RESEARCH REPOSITORY</span>
-        <p>{{ site.description }}</p>
       </div>
 
       <div class="header-right">
@@ -684,9 +683,13 @@
 
   <div class="site-body">
     <main class="main-content">
-      <div class="single-post-area">
-        <div class="post-body">{{ content }}</div>
-      </div>
+      {% if page.url == '/' %}
+        <div class="home-content">{{ content }}</div>
+      {% else %}
+        <div class="single-post-area">
+          <div class="post-body">{{ content }}</div>
+        </div>
+      {% endif %}
     </main>
 
     <aside class="sidebar-area">
@@ -695,6 +698,7 @@
         <div class="about-text widget-content">A curated repository of MS Emon's research and analytical deep-dives focused on the intersection of Systems Theory, Neuroscience, and E-commerce Scalability.</div>
       </div>
 
+            {% if site.categories.size > 0 %}
       <div class="sidebar-widget">
         <h2>Browse by Subject</h2>
         <ul>
@@ -703,7 +707,8 @@
           {% endfor %}
         </ul>
       </div>
-
+      {% endif %}
+      {% if site.posts.size > 0 %}
       <div class="sidebar-widget">
         <h2>Archive</h2>
         <ul>
@@ -712,6 +717,8 @@
           {% endfor %}
         </ul>
       </div>
+      {% endif %}
+
     </aside>
   </div>
 
