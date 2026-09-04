@@ -1,1 +1,14 @@
-LS0tCmxheW91dDogZGVmYXVsdAp0aXRsZTogSG9tZQotLS0KCjxkaXYgY2xhc3M9InN0YXR1cy1jYXJkIj4KICA8aDM+U3RyYXRlZ2ljIFJlc2VhcmNoIFN5bnRoZXNpczwvaDM+CiAgPHA+VGhlIDxzdHJvbmc+UmVwb3NpdG9yeTwvc3Ryb25nPiBpcyBjdXJyZW50bHkgaW4gaW5pdGlhbGl6YXRpb24gc3RhZ2UuPC9wPgogIDxkaXYgY2xhc3M9InN0YXR1cy1kZXRhaWwiPgogICAgPHNwYW4+Q3VycmVudCBGb2N1czo8L3NwYW4+CiAgICA8cD5Gb3VuZGF0aW9uYWwgUmVzZWFyY2hHYXRlIFB1YmxpY2F0aW9uICZtZGFzaDsgPGVtPkluIFByb2dyZXNzPC9lbT48L3A+CiAgPC9kaXY+CiAgPHAgY2xhc3M9InN0YXR1cy1ub3RlIj5TeXN0ZW0gc3RhdHVzOiBDYWxpYnJhdGluZyBmb3IgZGF0YS1kcml2ZW4gYW5kIGN1c3RvbWVyLWNlbnRyaWMgZnJhbWV3b3Jrcy48L3A+CjwvZGl2Pgo=
+---
+layout: default
+title: Home
+---
+
+<div class="status-card">
+  <h3>Strategic Research Synthesis</h3>
+  <p>The <strong>Repository</strong> is currently in initialization stage.</p>
+  <div class="status-detail">
+    <span>Current Focus:</span>
+    <p>Foundational ResearchGate Publication &mdash; <em>In Progress</em></p>
+  </div>
+  <p class="status-note">System status: Calibrating for data-driven and customer-centric frameworks.</p>
+</div>
