@@ -16,6 +16,6 @@ The work follows a customer-centric and systems-oriented approach. Each publicat
 
 ## Current status
 
-The repository is in its initialization stage. The first milestone is a foundational ResearchGate publication, followed by a structured collection of research posts and analytical deep-dives.
+The repository is an evolving public research record. Its current milestone is a foundational ResearchGate publication, followed by a structured collection of research posts and analytical deep-dives.
 
 For formal publications and author information, visit [ResearchGate](https://www.researchgate.net/profile/Md-Salauddin-Emon).
