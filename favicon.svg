@@ -1,28 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="400" height="400">
-  <defs>
-    <!-- The Radiance of the Mission -->
-    <radialGradient id="lab-radiance" cx="50%" cy="100%" r="70%">
-      <stop offset="0%" stop-color="#C19F4B" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#0B1528" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
+  <!-- Background with Rounded Corners -->
+  <rect width="100" height="100" fill="#0B1120" rx="20" ry="20" />
   
-  <!-- Deep Indigo Background (Rounded) -->
-  <rect width="100" height="100" rx="24" fill="#0B1528" />
+  <!-- Lab Hexagon -->
+  <polygon points="50 18, 78 34, 78 66, 50 82, 22 66, 22 34" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linejoin="round"/>
   
-  <!-- The Upward Light (Rounded) -->
-  <rect width="100" height="100" rx="24" fill="url(#lab-radiance)" />
+  <!-- 'M' Data Path -->
+  <path d="M 35 60 L 35 44 L 50 54 L 65 44 L 65 60" fill="none" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   
-  <!-- Lab Hexagon (System Container in Rich Gold) -->
-  <polygon points="50 18, 78 34, 78 66, 50 82, 22 66, 22 34" fill="none" stroke="#C19F4B" stroke-width="4" stroke-linejoin="round"/>
-  
-  <!-- The Mission 'M' Data Path (Radiant Gold) -->
-  <path d="M 35 62 L 35 42 L 50 54 L 65 42 L 65 62" fill="none" stroke="#FDE047" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  
-  <!-- Value Nodes (Rich Gold) -->
-  <circle cx="35" cy="42" r="3.5" fill="#C19F4B"/>
-  <circle cx="50" cy="54" r="3.5" fill="#C19F4B"/>
-  <circle cx="65" cy="42" r="3.5" fill="#C19F4B"/>
-  <circle cx="35" cy="62" r="3.5" fill="#C19F4B"/>
-  <circle cx="65" cy="62" r="3.5" fill="#C19F4B"/>
+  <!-- Data Nodes -->
+  <circle cx="35" cy="44" r="3" fill="#38BDF8"/>
+  <circle cx="50" cy="54" r="3" fill="#38BDF8"/>
+  <circle cx="65" cy="44" r="3" fill="#38BDF8"/>
 </svg>
