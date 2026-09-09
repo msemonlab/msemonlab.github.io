@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="400" height="400">
-  <!-- Hexagon Background -->
-  <polygon points="50 5, 89 27.5, 89 72.5, 50 95, 11 72.5, 11 27.5" fill="#0B1120" stroke="#0B1120" stroke-width="2" stroke-linejoin="round" />
+  <!-- Circular Background -->
+  <circle cx="50" cy="50" r="50" fill="#0B1120" />
   
   <!-- Inner Lab Hexagon -->
   <polygon points="50 18, 78 34, 78 66, 50 82, 22 66, 22 34" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linejoin="round"/>
