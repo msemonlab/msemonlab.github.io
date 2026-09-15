@@ -7,10 +7,6 @@ title: Home
   <p class="eyebrow">PRIMARY OBSERVATION FIELD</p>
   <h2>Operational Status</h2>
   <div class="status-card">
-    <div class="status-beacon-wrapper">
-      <span class="beacon-dot"></span>
-      <span class="beacon-label">Live Instrument Telemetry</span>
-    </div>
     <h3>Strategic Research Synthesis</h3>
     <p>The <strong>Repository</strong> is currently in initialization stage.</p>
     <div class="focus-panel">
