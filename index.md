@@ -5,7 +5,7 @@ title: Home
 
 <section class="home-status">
   <p class="eyebrow">PRIMARY OBSERVATION FIELD</p>
-  <h2>Operational Status <span class="sonar-wrapper"><span class="sonar-core"></span><span class="sonar-ring"></span></span></h2>
+  <h2><span class="sonar-wrapper"><span class="sonar-core"></span><span class="sonar-ring"></span></span>Operational Status</h2>
   <div class="status-card">
     <h3>Strategic Research Synthesis</h3>
     <p>The <strong>Repository</strong> is currently in initialization stage.</p>
