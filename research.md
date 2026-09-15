@@ -8,7 +8,15 @@ permalink: /research/
   <p class="card-kicker">RESEARCH ARCHIVE</p>
   <h1 style="margin-top: 0; margin-bottom: 16px;">Research</h1>
   <div class="status-card" style="margin-top: 20px;">
+    <div class="status-beacon-wrapper">
+      <span class="beacon-dot"></span>
+      <span class="beacon-label">Empirical &amp; Behavioral Systems</span>
+    </div>
     <p style="margin-bottom: 16px;">The Research Archive maintains a structured repository of working papers, strategic syntheses, and computational models.</p>
+    <div class="focus-panel">
+      <span>Current Focus:</span>
+      <p>Foundational ResearchGate Publication &mdash; <em>In Progress</em></p>
+    </div>
     <p class="status-note" style="margin-bottom: 0;">System status: Consolidating foundational publications.</p>
   </div>
 </section>

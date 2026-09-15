@@ -8,6 +8,10 @@ permalink: /analytics/
   <p class="card-kicker">ANALYTICAL ARCHIVE</p>
   <h1 style="margin-top: 0; margin-bottom: 16px;">Analytics</h1>
   <div class="status-card" style="margin-top: 20px;">
+    <div class="status-beacon-wrapper">
+      <span class="beacon-dot"></span>
+      <span class="beacon-label">Telemetry &amp; Frameworks</span>
+    </div>
     <p style="margin-bottom: 16px;">The Analytics Archive synthesizes data-driven models, behavioral telemetry, and system-level experimentation.</p>
     <div class="focus-panel">
       <span>Strategic Vectors:</span>
