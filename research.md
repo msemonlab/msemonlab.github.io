@@ -17,7 +17,7 @@ permalink: /research/
       <span>Current Focus:</span>
       <p>Foundational ResearchGate Publication &mdash; <em>In Progress</em></p>
     </div>
-    <p class="status-note" style="margin-bottom: 0;">System status: Consolidating foundational publications.</p>
+    <p class="status-note" style="margin-bottom: 0;">System status: Staging foundational research.</p>
   </div>
 </section>
 
