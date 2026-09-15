@@ -4,18 +4,10 @@ title: About
 permalink: /about/
 ---
 
-# About MS Emon
-
-I am a strategy analyst working at the intersection of **systems thinking, neuroscience, e-commerce scalability, and data-driven decision-making**.
-
-This repository is the public research layer of my work. It is intended to document analytical frameworks, research notes, experiments, and longer-form academic writing as the collection develops.
-
-## Research orientation
-
-The work follows a customer-centric and systems-oriented approach. Each publication or research note is designed to make its assumptions visible, connect evidence to interpretation, and clarify the practical implications of the analysis.
-
-## Current status
-
-The repository is an evolving public research record. Its current milestone is a foundational ResearchGate publication, followed by a structured collection of research posts and analytical deep-dives.
-
-For formal publications and author information, visit [ResearchGate](https://www.researchgate.net/profile/Md-Salauddin-Emon).
+<section class="article-card">
+  <p class="card-kicker">REPOSITORY PROFILE</p>
+  <h1 style="margin-top: 0; margin-bottom: 16px;">About the Repository</h1>
+  <p>This repository serves as a centralized node for Md. Salauddin Emon's research synthesis across systems theory, cognitive neuroscience, and digital scalability.</p>
+  <p>Operating as an open-access framework, it houses working notes, analytical models, and foundational studies as they calibrate toward formal publication.</p>
+  <p class="status-note" style="margin-top: 16px; border-top: 1px solid var(--border-color); padding-top: 16px;">System status: Calibrating cross-disciplinary frameworks for public access.</p>
+</section>
