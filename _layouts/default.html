@@ -696,6 +696,14 @@
     .home-status .status-card { padding: 26px 20px 28px; }
     .home-status .status-card h3 { margin-bottom: 16px; font-size: clamp(24px, 7vw, 30px); }
   }
+  /* Scanning Laser (Observation Sweep) */
+  .home-status .status-card { position: relative; overflow: hidden; }
+  .home-status .status-card::before {
+    content: ''; position: absolute; top: 0; left: -100%; width: 50%; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent-teal), #ffffff, var(--accent-teal), transparent);
+    box-shadow: 0 0 10px var(--accent-teal); animation: laserSweep 4.5s ease-in-out infinite; z-index: 10; opacity: 0.85;
+  }
+  @keyframes laserSweep { 0% { left: -60%; } 50% { left: 110%; } 100% { left: -60%; } }
 </style>
 </head>
 <body>
