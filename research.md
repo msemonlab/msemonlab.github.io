@@ -12,7 +12,7 @@ permalink: /research/
       <span class="beacon-dot"></span>
       <span class="beacon-label">Empirical &amp; Behavioral Systems</span>
     </div>
-    <p style="margin-bottom: 16px;">The Research Archive maintains a structured repository of working papers, strategic syntheses, and computational models.</p>
+    <p style="margin-bottom: 16px;">The Research Archive maintains a structured repository of working papers, strategic syntheses, and empirical models.</p>
     <div class="focus-panel">
       <span>Current Focus:</span>
       <p>Foundational ResearchGate Publication &mdash; <em>In Progress</em></p>
