@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<section class="home-status">
+<section class="home-status" id="index-status">
   <p class="eyebrow">PRIMARY OBSERVATION FIELD</p>
   <h2><span class="sonar-wrapper"><span class="sonar-core"></span><span class="sonar-ring"></span></span>Operational Status</h2>
   <div class="status-card">
