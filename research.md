@@ -4,9 +4,9 @@ title: Research
 permalink: /research/
 ---
 
-<section class="article-card">
-  <p class="card-kicker">RESEARCH ARCHIVE</p>
-  <h1 style="margin-top: 0; margin-bottom: 16px;">Research</h1>
+<section class="home-status" markdown="0">
+  <p class="eyebrow">RESEARCH ARCHIVE</p>
+  <h2>Research</h2>
   <div class="status-card" style="margin-top: 20px;">
     <div class="status-beacon-wrapper">
       <span class="beacon-dot"></span>

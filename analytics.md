@@ -4,9 +4,9 @@ title: Analytics
 permalink: /analytics/
 ---
 
-<section class="article-card">
-  <p class="card-kicker">ANALYTICAL ARCHIVE</p>
-  <h1 style="margin-top: 0; margin-bottom: 16px;">Analytics</h1>
+<section class="home-status" markdown="0">
+  <p class="eyebrow">ANALYTICAL ARCHIVE</p>
+  <h2>Analytics</h2>
   <div class="status-card" style="margin-top: 20px;">
     <div class="status-beacon-wrapper">
       <span class="beacon-dot"></span>
