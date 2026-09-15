@@ -15,7 +15,7 @@ permalink: /analytics/
     <p style="margin-bottom: 16px;">The Analytics Archive synthesizes data-driven models, behavioral telemetry, and system-level experimentation.</p>
     <div class="focus-panel">
       <span>Strategic Vectors:</span>
-      <p>Data-driven frameworks, customer-centric architectures, and digital scalability.</p>
+      <p>Data-driven frameworks, customer-centric architectures, and e-commerce scalability.</p>
     </div>
     <p class="status-note" style="margin-bottom: 0;">System status: Initializing computational pipelines.</p>
   </div>
