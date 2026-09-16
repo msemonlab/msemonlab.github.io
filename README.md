@@ -1,22 +1,20 @@
-# MS Emon Research Repository
+# MS Emon's Personal Log - Research Repository
 
-This repository contains the Jekyll/GitHub Pages version of MS Emon's research repository, migrated from the Blogger site.
+This repository serves as my personal development log and internal tracker for the Jekyll-based version of my research repository (migrated from Blogger). 
 
-The current site foundation includes the responsive research-repository theme, homepage, navigation, About, Research, Analytics, 404 handling, and a GitHub Pages deployment workflow.
+## Local Development Notes
 
-## Local development
-
-Install Ruby and Bundler, then run:
+To spin up the site locally for testing or changes:
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
+Then navigate to `http://localhost:4000`.
 
-Open `http://localhost:4000` in a browser.
+## Content Migration Tracker
 
-## Content migration
+- **Guide:** Reference `MIGRATION_GUIDE.md` for rules on Blogger exports, post conversion, media handling, URL mapping, and GitHub Pages setup.
+- **Pending:** Waiting on the reviewed Blogger XML content export. Need the Blogger theme XML and original assets for exact fidelity.
 
-See [`MIGRATION_GUIDE.md`](MIGRATION_GUIDE.md) for Blogger export requirements, post conversion rules, media handling, URL mapping, and GitHub Pages setup.
-
-Blogger content is not included yet. The next input required for full migration is a reviewed Blogger XML content export, plus the Blogger theme XML and original assets if exact content/theme fidelity is desired.
+*(Use this space to track ongoing migration thoughts and personal notes)*
